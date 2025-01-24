@@ -18,7 +18,8 @@ import java.util.function.Function;
 public class JwtService {
 
     //this is generated online and paste in the ""
-    private static final String SECRET_KEY = "2B4D6251655468576D5A7134743777217A25432A462D4A614E645266556A586E";
+    //
+    private static final String SECRET_KEY = System.getenv("JWT_SECRET_KEY";
 
     //this method is used to extract token from user
     public String extractUsername(String token) {
