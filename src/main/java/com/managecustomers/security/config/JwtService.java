@@ -19,7 +19,7 @@ public class JwtService {
 
     //this is generated online and paste in the ""
     //
-    private static final String SECRET_KEY = System.getenv("JWT_SECRET_KEY";
+    private static final String SECRET_KEY = System.getenv("JWT_SECRET_KEY");
 
     //this method is used to extract token from user
     public String extractUsername(String token) {
